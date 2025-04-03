@@ -8,7 +8,7 @@ describe('Message Toggle Functionality', () => {
     cy.visit('http://localhost:3000');
     cy.contains('Toggle Message').click();
     cy.contains('Goodbye, World!').should('be.visible');
-    cy.wait(500); // Adjust the time as needed
+    cy.wait(500);
     cy.contains('Toggle Message').click();
     cy.contains('Hello, World!').should('be.visible');
   });
