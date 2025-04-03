@@ -5,7 +5,7 @@ const HelloWorld = () => {
   // Test
   const toggleMessage = () => {
     setMessage((prevMessage) =>
-      prevMessage === "Hello, Worl!" ? "Goodbye, World!" : "Hello, Worl!"
+      prevMessage === "Hello, World!" ? "Goodbye, World!" : "Hello, World!"
     );
   };
 
